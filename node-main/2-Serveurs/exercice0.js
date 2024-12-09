@@ -3,3 +3,30 @@
 // Pour répondre à une requête HTTP, on utilise l'objet http.ServerResponse qui est fourni comme second paramètre au gestionnaire d'événement 'request'. La méthode writeHead() permet de définir l'en-tête de la réponse HTTP, tandis que la méthode write() permet d'écrire le corps de la réponse. Enfin, la méthode end() permet de terminer la réponse et de couper la connexion avec le client HTTP.
 
 // Voici un exemple de code qui utilise le module http pour créer un serveur HTTP :
+
+
+
+// Voici un exemple de code qui utilise le module http pour créer un serveur HTTP :
+// Importation du module 'http' de Node.js pour créer un serveur HTTP
+// const http = require("http");
+
+// Création d'un serveur HTTP
+// const server = http.createServer((req, res) => { //requête et reponse
+  // À chaque requête reçue, ces informations sont affichées dans la console
+  // console.log("Received request:", req.method, req.url);
+
+  // Envoie d'un en-tête de réponse HTTP avec le statut 200 (OK) et le type de contenu en texte brut
+  // res.writeHead(200, { "Content-Type": "text/plain" });
+
+  // Écriture du message 'Hello, world!' dans le corps de la réponse
+  // res.write("Hello, world!");
+
+  // Signalisation que la réponse est complète et que le serveur peut l'envoyer au client
+//   res.end();
+// });
+
+// Démarrage du serveur pour qu'il écoute sur le port 3000
+// server.listen(3000, () => {
+  // Affichage d'un message dans la console lorsque le serveur démarre avec succès
+//   console.log("Server started at http://localhost:3000");
+// });
