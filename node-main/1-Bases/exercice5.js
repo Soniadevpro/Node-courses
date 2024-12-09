@@ -25,3 +25,13 @@ Pour installer un module avec npm, il suffit généralement d'exécuter la comma
 /**
     4. Prenez l'habitude d'utiliser la doc: 
 **/
+const _ = require('lodash');
+
+const array = [1, 2, 3, 4, 5];
+
+console.log("tableau initial :", array);
+
+_.reverse(array);
+
+console.log("Tableau initial inversé", array);
+

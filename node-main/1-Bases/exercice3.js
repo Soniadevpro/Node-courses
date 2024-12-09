@@ -29,3 +29,16 @@ Lors de l'utilisation des modules Node.js, on trouve généralement des méthode
 **/
 
 // importation module FileSystem
+
+
+// création d'un fichier texte de manière asynchrone
+
+const fs = require('fs');
+
+const monfichier = 'exercice3.txt';
+
+
+fs.writeFile(monfichier, 'Hello Node.js', (err) => { // write file créera un fichier s'il n'existe pas, sinon il écrira dans le fichier existant
+  if (err) throw err;
+  console.log("Le fichier a été créé !");
+});

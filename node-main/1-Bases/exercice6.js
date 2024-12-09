@@ -5,3 +5,6 @@
 // Enfin, vous devez créer un autre fichier JavaScript qui importe le module personnel et utilise la fonction exportée pour écrire un message dans un fichier.
 
 // Étape 3 : utiliser le module personnel pour écrire un message dans un fichier
+
+
+ 

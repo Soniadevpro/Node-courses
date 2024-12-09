@@ -1,0 +1,17 @@
+{
+  "name": "1-bases",
+  "version": "1.0.0",
+  "main": "exercice0.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node exercice4.js"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

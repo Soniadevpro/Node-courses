@@ -23,3 +23,8 @@ exercice
 
 Exécutez votre projet en utilisant la commande npm start dans le terminal 
 */
+
+
+
+console.log('Bienvenue dans mon premier projet Node.js !');
+

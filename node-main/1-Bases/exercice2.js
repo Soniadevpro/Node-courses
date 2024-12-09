@@ -34,11 +34,11 @@ Cet exercice vous permettra de pratiquer l'utilisation de la méthode "path.join
 */
 
 
-const path = require("path");
+const path = require("path"); // importation du module path
 
-const nomDuFichier = "/node-main/1-Bases/exercice2.txtexercice2.txt";
-const cheminDuFichier = path.join(__dirname, nomDuFichier);
+const nomDuFichier = "exercice2.txt"; // nom du fichier
+const cheminDuFichier = path.join(__dirname, nomDuFichier); // construit le chemin complet du fichier
 
-console.log("Le chemin complet du fichier est : ", cheminDuFichier);
+console.log("Le chemin complet du fichier est : ", cheminDuFichier); // affiche le chemin complet du fichier
 
-console.log(__dirname);
+console.log(__dirname); // affiche les dossiers parents du fichier courant
