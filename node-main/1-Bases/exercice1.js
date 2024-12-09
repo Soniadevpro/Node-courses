@@ -4,3 +4,7 @@
 recopiez l'exercice0 ici et creez un autre fichier exercice1Module.js qui contient une fonction qui return bonjour de la part du module
 */
 // const direBonjour = require("./exercice1Module");
+
+const bonjour = require("./exercice1Module");
+console.log(bonjour()); // Bonjour de la part du module
+

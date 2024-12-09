@@ -32,3 +32,13 @@ Le programme devrait afficher le chemin complet du fichier "exercice2.txt".
 
 Cet exercice vous permettra de pratiquer l'utilisation de la méthode "path.join()" pour obtenir le chemin d'un fichier en utilisant Node.js.
 */
+
+
+const path = require("path");
+
+const nomDuFichier = "/node-main/1-Bases/exercice2.txtexercice2.txt";
+const cheminDuFichier = path.join(__dirname, nomDuFichier);
+
+console.log("Le chemin complet du fichier est : ", cheminDuFichier);
+
+console.log(__dirname);
